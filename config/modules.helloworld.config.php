@@ -11,8 +11,6 @@
  * This should be an array of module namespaces used in the application.
  */
 return [
-    'Zend\ServiceManager\Di',
-    'Zend\Router',
-    'Application',
-    'PhpBenchmarksZend\HelloWorld'
+    Zend\Router\Module::class,
+    PhpBenchmarksZend\HelloWorld\Module::class,
 ];

@@ -11,10 +11,8 @@
  * This should be an array of module namespaces used in the application.
  */
 return [
-    'Zend\I18n',
-    'Zend\ServiceManager\Di',
-    'Zend\Mvc\I18n',
-    'Zend\Router',
-    'Application',
-    'PhpBenchmarksZend\RestApi'
+    Zend\I18n\Module::class,
+    Zend\Mvc\I18n\Module::class,
+    Zend\Router\Module::class,
+    PhpBenchmarksZend\RestApi\Module::class,
 ];
