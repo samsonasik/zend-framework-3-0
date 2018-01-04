@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "58c6df2918bf2e94a75a7458604cbf14",
+    "content-hash": "890d4171f814465b8e83117c946a500f",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -68,16 +68,16 @@
         },
         {
             "name": "phpbenchmarks/zend",
-            "version": "1.1.0",
+            "version": "dev-restapi",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpbenchmarks/zend.git",
-                "reference": "7b10aa9398df7cf0d3592c3225ec58c714c71f18"
+                "reference": "6061b5c4f9a246ba1bb6ad43d7926a2ab45ff838"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpbenchmarks/zend/zipball/7b10aa9398df7cf0d3592c3225ec58c714c71f18",
-                "reference": "7b10aa9398df7cf0d3592c3225ec58c714c71f18",
+                "url": "https://api.github.com/repos/phpbenchmarks/zend/zipball/6061b5c4f9a246ba1bb6ad43d7926a2ab45ff838",
+                "reference": "6061b5c4f9a246ba1bb6ad43d7926a2ab45ff838",
                 "shasum": ""
             },
             "require": {
@@ -87,15 +87,14 @@
             "type": "project",
             "autoload": {
                 "psr-4": {
-                    "PhpBenchmarksZend\\HelloWorld\\": "module/HelloWorld/src",
-                    "PhpBenchmarksZend\\RestApi\\": "module/RestApi/src"
+                    "PhpBenchmarksZend\\RestApi\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "proprietary"
             ],
-            "time": "2017-12-26T23:20:03+00:00"
+            "time": "2018-01-04T16:05:58+00:00"
         },
         {
             "name": "psr/container",
@@ -1089,7 +1088,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "phpbenchmarks/zend": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
