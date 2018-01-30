@@ -19,11 +19,11 @@ You will not find final source code here, as it's in [phpbenchmarks/zend](https:
 You can find how we benchmark it [here](http://www.phpbenchmarks.com/en/benchmark-protocol).
 
 Each benchmark type have their own branch :
-[Hello World](https://github.com/phpbenchmarks/zend-3-0/tree/helloworld),
-[Blog](https://github.com/phpbenchmarks/zend-3-0/tree/blog),
-[REST Api](https://github.com/phpbenchmarks/zend-3-0/tree/restapi),
-[Small overload](https://github.com/phpbenchmarks/zend-3-0/tree/smalloverload)
-and [Big overload](https://github.com/phpbenchmarks/zend-3-0/tree/bigoverload).
+[Hello World](https://github.com/phpbenchmarks/zend-framework-3-0/tree/helloworld),
+[Blog](https://github.com/phpbenchmarks/zend-framework-3-0/tree/blog),
+[REST Api](https://github.com/phpbenchmarks/zend-framework-3-0/tree/restapi),
+[Small overload](https://github.com/phpbenchmarks/zend-framework-3-0/tree/smalloverload)
+and [Big overload](https://github.com/phpbenchmarks/zend-framework-3-0/tree/bigoverload).
 
 [See all benchmark results](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/zend-framework-3.0.html)
 

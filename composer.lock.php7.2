@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "934a24b51b9b65c2201d7d923ccf6e20",
+    "content-hash": "62f519cd5c71edb47c9957b3a0465b29",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -38,17 +38,17 @@
             "time": "2017-02-14T19:40:03+00:00"
         },
         {
-            "name": "phpbenchmarks/zend",
-            "version": "1.0.0",
+            "name": "phpbenchmarks/zend-framework",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/phpbenchmarks/zend.git",
-                "reference": "ac7da292956d347f9dd85ad45c1096a6a272fb6c"
+                "url": "https://github.com/phpbenchmarks/zend-framework.git",
+                "reference": "5f28a4385522f6a147d909af9b72ef07675ebdff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpbenchmarks/zend/zipball/ac7da292956d347f9dd85ad45c1096a6a272fb6c",
-                "reference": "ac7da292956d347f9dd85ad45c1096a6a272fb6c",
+                "url": "https://api.github.com/repos/phpbenchmarks/zend-framework/zipball/5f28a4385522f6a147d909af9b72ef07675ebdff",
+                "reference": "5f28a4385522f6a147d909af9b72ef07675ebdff",
                 "shasum": ""
             },
             "require": {
@@ -57,14 +57,14 @@
             "type": "project",
             "autoload": {
                 "psr-4": {
-                    "PhpBenchmarksZend\\HelloWorld\\": ""
+                    "PhpBenchmarksZendFramework\\HelloWorldModule\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "proprietary"
             ],
-            "time": "2018-01-04T15:47:51+00:00"
+            "time": "2018-01-30T12:43:13+00:00"
         },
         {
             "name": "psr/container",
@@ -565,16 +565,16 @@
         },
         {
             "name": "zendframework/zend-servicemanager",
-            "version": "3.3.1",
+            "version": "3.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-servicemanager.git",
-                "reference": "0fa3d3cf588dde0850fff1efa60d44a7aa3c3ab7"
+                "reference": "9f35a104b8d4d3b32da5f4a3b6efc0dd62e5af42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-servicemanager/zipball/0fa3d3cf588dde0850fff1efa60d44a7aa3c3ab7",
-                "reference": "0fa3d3cf588dde0850fff1efa60d44a7aa3c3ab7",
+                "url": "https://api.github.com/repos/zendframework/zend-servicemanager/zipball/9f35a104b8d4d3b32da5f4a3b6efc0dd62e5af42",
+                "reference": "9f35a104b8d4d3b32da5f4a3b6efc0dd62e5af42",
                 "shasum": ""
             },
             "require": {
@@ -588,10 +588,10 @@
                 "psr/container-implementation": "^1.0"
             },
             "require-dev": {
-                "mikey179/vfsstream": "^1.6",
+                "mikey179/vfsstream": "^1.6.5",
                 "ocramius/proxy-manager": "^1.0 || ^2.0",
-                "phpbench/phpbench": "^0.10.0",
-                "phpunit/phpunit": "^5.7 || ^6.0.6",
+                "phpbench/phpbench": "^0.13.0",
+                "phpunit/phpunit": "^5.7.25 || ^6.4.4",
                 "zendframework/zend-coding-standard": "~1.0.0"
             },
             "suggest": {
@@ -618,13 +618,18 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "homepage": "https://github.com/zendframework/zend-servicemanager",
+            "description": "Factory-Driven Dependency Injection Container",
             "keywords": [
+                "PSR-11",
+                "ZendFramework",
+                "dependency-injection",
+                "di",
+                "dic",
                 "service-manager",
                 "servicemanager",
                 "zf"
             ],
-            "time": "2017-11-27T18:11:25+00:00"
+            "time": "2018-01-29T16:48:37+00:00"
         },
         {
             "name": "zendframework/zend-stdlib",
@@ -791,16 +796,16 @@
         },
         {
             "name": "zendframework/zend-view",
-            "version": "2.9.0",
+            "version": "2.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-view.git",
-                "reference": "3b6342c381c4437a03fc81d0064c0bb8924914d3"
+                "reference": "4478cc5dd960e2339d88b363ef99fa278700e80e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-view/zipball/3b6342c381c4437a03fc81d0064c0bb8924914d3",
-                "reference": "3b6342c381c4437a03fc81d0064c0bb8924914d3",
+                "url": "https://api.github.com/repos/zendframework/zend-view/zipball/4478cc5dd960e2339d88b363ef99fa278700e80e",
+                "reference": "4478cc5dd960e2339d88b363ef99fa278700e80e",
                 "shasum": ""
             },
             "require": {
@@ -831,7 +836,7 @@
                 "zendframework/zend-router": "^3.0.1",
                 "zendframework/zend-serializer": "^2.6.1",
                 "zendframework/zend-servicemanager": "^2.7.5 || ^3.0.3",
-                "zendframework/zend-session": "^2.6.2",
+                "zendframework/zend-session": "^2.8.1",
                 "zendframework/zend-uri": "^2.5"
             },
             "suggest": {
@@ -855,8 +860,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.9-dev",
-                    "dev-develop": "3.0-dev"
+                    "dev-master": "2.10.x-dev",
+                    "dev-develop": "2.11.x-dev"
                 }
             },
             "autoload": {
@@ -874,7 +879,7 @@
                 "view",
                 "zf2"
             ],
-            "time": "2017-03-21T15:05:56+00:00"
+            "time": "2018-01-17T22:21:50+00:00"
         }
     ],
     "packages-dev": [],

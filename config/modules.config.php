@@ -7,5 +7,5 @@
 
 return [
     Zend\Router\Module::class,
-    PhpBenchmarksZend\HelloWorld\Module::class,
+    PhpBenchmarksZendFramework\HelloWorldModule\Module::class,
 ];

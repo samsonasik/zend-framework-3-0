@@ -6,7 +6,7 @@ return [
         'module_paths' => [
             './module',
             './vendor',
-            'PhpBenchmarksZend\\HelloWorld' => './vendor/phpbenchmarks/zend'
+            'PhpBenchmarksZendFramework\\HelloWorldModule' => './vendor/phpbenchmarks/zend-framework/src'
         ],
         'config_glob_paths' => [
             realpath(__DIR__) . '/autoload/{{,*.}global,{,*.}local}.php',
