@@ -14,7 +14,7 @@ You can compare results between Apache Bench and Siege, PHP 5.6 to 7.2 and versi
 
 It's benchmark source code for Zend Framework 3.0.
 
-You will not find final source code here, as it's in [phpbenchmarks/zend](https://github.com/phpbenchmarks/zend) dependency.
+You will not find final source code here, as it's in [phpbenchmarks/zend-framework](https://github.com/phpbenchmarks/zend-framework) dependency.
 
 You can find how we benchmark it [here](http://www.phpbenchmarks.com/en/benchmark-protocol).
 
