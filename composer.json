@@ -1,5 +1,5 @@
 {
-    "name": "phpbenchmarks/zend-3-0",
+    "name": "phpbenchmarks/zend-framework-3-0",
     "type": "project",
     "license": "proprietary",
     "minimum-stability": "stable",
@@ -9,11 +9,6 @@
         "zendframework/zend-json": "^3.0",
         "zendframework/zend-mvc-i18n": "^1.0",
         "zendframework/zend-servicemanager": "^3.3.1",
-        "phpbenchmarks/zend": "3.0.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Application\\": "module/Application/src/"
-        }
+        "phpbenchmarks/zend-framework": "3.0.1"
     }
 }

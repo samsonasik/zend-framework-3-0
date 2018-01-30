@@ -9,5 +9,5 @@ return [
     Zend\I18n\Module::class,
     Zend\Mvc\I18n\Module::class,
     Zend\Router\Module::class,
-    PhpBenchmarksZend\RestApi\Module::class,
+    PhpBenchmarksZendFramework\RestApiModule\Module::class,
 ];
